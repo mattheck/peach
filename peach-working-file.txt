@@ -1,0 +1,30 @@
+div {
+    border: 1px solid #eeedec;
+    height: 300px;
+    position: absolute;
+    z-index: 1;
+    transition-duration: 225ms;
+    -webkit-transition-property: all;
+    -webkit-transition-timing-function: cubic-bezier(0.5, -0.7, 0.67, 0.7);
+    width: 300px;
+    border-radius: 150px;
+}
+div:hover {
+    border: 1px solid #61459b!important;
+    transform: scale(1.18);
+    -webkit-transition-timing-function: cubic-bezier(0.4, 0.25, 0.14, 1.73);
+}
+
+<div style="text-align: center;">
+<img style="display:block; margin: 0 auto;" src="http://dev.burtoniagroup.com/peach-landing-page/wp-content/uploads/2015/09/femme-live-feed.png" />
+</div>
+<div style="text-align: center;">
+<h3 style="color:#61459B">Tag #FemmeNutrition to get featured</h3>
+</div>
+
+<!-- SnapWidget -->
+<script src="http://snapwidget.com/js/snapwidget.js"></script>
+<iframe src="http://snapwidget.com/bd/?h=ZmVtbWVudXRyaXRpb258aW58MjAwfDN8M3x8eWVzfDIwfGZhZGVPdXR8b25TdGFydHx5ZXN8eWVz&ve=250915" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%;"></iframe>
+
+
+make child theme add footer
